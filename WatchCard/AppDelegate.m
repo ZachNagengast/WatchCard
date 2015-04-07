@@ -43,4 +43,9 @@
     // Saves changes in the application's managed object context before the application terminates.
 }
 
+-(void)application:(UIApplication *)application handleWatchKitExtensionRequest:(NSDictionary *)userInfo reply:(void (^)(NSDictionary *))reply
+{
+    reply(@{@"opened": @YES});
+}
+
 @end

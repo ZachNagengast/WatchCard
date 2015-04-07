@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7528.3" systemVersion="14D98g" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14D98g" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7518.3"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--WatchCard-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                <controller title="WatchCard" animationDuration="1" id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
-                        <label alignment="center" text="Hi, I'm Zachary Nagengast" textAlignment="center" minimumScaleFactor="0.40000000000000013" id="si1-hx-4gR">
+                        <label alignment="center" text="Setup on iPhone" textAlignment="center" minimumScaleFactor="0.10000000000000014" id="si1-hx-4gR">
+                            <color key="textColor" red="0.0" green="0.88627450980392153" blue="0.44705882352941179" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="font" style="UICTFontTextStyleBody"/>
                         </label>
-                        <imageView width="100" height="100" alignment="center" verticalAlignment="center" image="ExampleContact" id="taX-Rn-LCC"/>
-                        <label alignment="center" verticalAlignment="bottom" text="@timchef" id="gPY-Oq-Vl2"/>
+                        <group width="0.80000000000000004" alignment="center" verticalAlignment="center" radius="5" id="JuG-br-hzp">
+                            <items>
+                                <imageView width="1" height="1" alignment="center" verticalAlignment="center" image="ExampleContact" id="taX-Rn-LCC"/>
+                            </items>
+                        </group>
+                        <label alignment="center" verticalAlignment="bottom" text="Reopen when done" textAlignment="center" minimumScaleFactor="0.10000000000000014" id="gPY-Oq-Vl2">
+                            <color key="textColor" red="0.0" green="0.88627450980392153" blue="0.44705882352941179" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </label>
                     </items>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="gPY-Oq-Vl2" id="1wB-hD-osU"/>
+                        <outlet property="nameLabel" destination="si1-hx-4gR" id="Qgw-Lv-ppk"/>
+                        <outlet property="qrImage" destination="taX-Rn-LCC" id="sc7-If-IsR"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>

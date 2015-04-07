@@ -10,8 +10,19 @@
 #import <AddressBook/AddressBook.h>
 #import <AddressBookUI/AddressBookUI.h>
 
-@interface MainTableViewController : UITableViewController <ABPeoplePickerNavigationControllerDelegate>
+@interface MainTableViewController : UITableViewController <ABPeoplePickerNavigationControllerDelegate, UITextFieldDelegate>
 
-@property (nonatomic,retain) IBOutlet UIImageView *qrImageView;
+@property (nonatomic, retain) NSString *name;
+@property (nonatomic, retain) NSString *description;
+@property (readwrite) BOOL hideTableSection;
+
+@property (nonatomic, retain) IBOutlet UIImageView *qrImageView;
+@property (nonatomic, retain) IBOutlet UILabel *previewNameView;
+@property (nonatomic, retain) IBOutlet UILabel *previewDescriptionView;
+@property (nonatomic, retain) IBOutlet UITextField *nameField;
+@property (nonatomic, retain) IBOutlet UITextField *descriptionField;
+@property (nonatomic, retain) IBOutlet UITableView;
+
+- (IBAction)saveData:(id)sender;
 
 @end

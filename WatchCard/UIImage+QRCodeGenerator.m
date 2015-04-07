@@ -22,7 +22,12 @@
     UIImage *ret = nil;
     QRcode  *qr  = QRcode_encodeString([iData UTF8String],0,QR_ECLEVEL_L,QR_MODE_8,1);
     
-    int logQRSize = qr->width;
+    int logQRSize = 0;
+    if (qr != NULL)
+    {
+        logQRSize = qr->width;
+    }
+    
     int phyQRSize = logQRSize + (2 * iQuietZone);
     int scale     = iSize / phyQRSize;
     int imgSize   = phyQRSize * scale;

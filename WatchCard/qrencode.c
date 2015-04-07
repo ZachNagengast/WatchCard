@@ -667,7 +667,9 @@ static QRcode *QRcode_encodeStringReal(const char *string, int version, QRecLeve
 
 QRcode *QRcode_encodeString(const char *string, int version, QRecLevel level, QRencodeMode hint, int casesensitive)
 {
-	return QRcode_encodeStringReal(string, version, level, 0, hint, casesensitive);
+    QRcode *code = QRcode_encodeStringReal(string, version, level, 0, hint, casesensitive);
+
+    return code;
 }
 
 QRcode *QRcode_encodeStringMQR(const char *string, int version, QRecLevel level, QRencodeMode hint, int casesensitive)

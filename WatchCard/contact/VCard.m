@@ -104,11 +104,11 @@ static NSInteger itemCounter;
 	}
 	
 	// Photo
-	NSData *imageData = contact.thumbData;//contact.imageData;
-	if (imageData)
-	{
-		vcard = [vcard stringByAppendingFormat:@"PHOTO;BASE64:%@\n",[imageData base64Encoding]];
-	}
+//	NSData *imageData = contact.thumbData;//contact.imageData;
+//	if (imageData)
+//	{
+//		vcard = [vcard stringByAppendingFormat:@"PHOTO;BASE64:%@\n",[imageData base64Encoding]];
+//	}
 	
 	// end
 	vcard = [vcard stringByAppendingString:@"END:VCARD"];

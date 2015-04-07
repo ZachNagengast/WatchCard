@@ -11,4 +11,8 @@
 
 @interface InterfaceController : WKInterfaceController
 
+@property (weak, nonatomic) IBOutlet WKInterfaceLabel *nameLabel;
+@property (weak, nonatomic) IBOutlet WKInterfaceLabel *descriptionLabel;
+@property (weak, nonatomic) IBOutlet WKInterfaceImage *qrImage;
+
 @end

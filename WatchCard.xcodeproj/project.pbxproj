@@ -8,15 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		161C45AA1ACDFE8700055359 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 161C45711ACDFE8700055359 /* AppDelegate.m */; };
-		161C45AB1ACDFE8700055359 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161C45721ACDFE8700055359 /* LaunchScreen.xib */; };
-		161C45AC1ACDFE8700055359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161C45741ACDFE8700055359 /* Main.storyboard */; };
 		161C45AD1ACDFE8700055359 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 161C45771ACDFE8700055359 /* Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		161C45AE1ACDFE8700055359 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 161C45781ACDFE8700055359 /* bitstream.c */; };
 		161C45AF1ACDFE8700055359 /* ABContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 161C457D1ACDFE8700055359 /* ABContact.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		161C45B01ACDFE8700055359 /* VCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 161C457F1ACDFE8700055359 /* VCard.m */; };
-		161C45B11ACDFE8700055359 /* Contact_Face.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 161C45801ACDFE8700055359 /* Contact_Face.xcdatamodeld */; };
 		161C45B21ACDFE8700055359 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161C45821ACDFE8700055359 /* Images.xcassets */; };
-		161C45B31ACDFE8700055359 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 161C45831ACDFE8700055359 /* Info.plist */; };
 		161C45B41ACDFE8700055359 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 161C45841ACDFE8700055359 /* main.m */; };
 		161C45B51ACDFE8700055359 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161C45861ACDFE8700055359 /* MainTableViewController.m */; };
 		161C45B61ACDFE8700055359 /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = 161C45871ACDFE8700055359 /* mask.c */; };
@@ -28,18 +24,18 @@
 		161C45BC1ACDFE8700055359 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = 161C45941ACDFE8700055359 /* rscode.c */; };
 		161C45BD1ACDFE8700055359 /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = 161C45961ACDFE8700055359 /* split.c */; };
 		161C45BE1ACDFE8700055359 /* UIImage+QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 161C45991ACDFE8700055359 /* UIImage+QRCodeGenerator.m */; };
-		161C45BF1ACDFE8700055359 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161C459B1ACDFE8700055359 /* Interface.storyboard */; };
-		161C45C01ACDFE8700055359 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161C459D1ACDFE8700055359 /* Images.xcassets */; };
-		161C45C11ACDFE8700055359 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 161C459E1ACDFE8700055359 /* Info.plist */; };
-		161C45C21ACDFE8700055359 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161C45A01ACDFE8700055359 /* Images.xcassets */; };
-		161C45C31ACDFE8700055359 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 161C45A11ACDFE8700055359 /* Info.plist */; };
 		161C45C41ACDFE8700055359 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161C45A31ACDFE8700055359 /* InterfaceController.m */; };
 		161C45C51ACDFE8700055359 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161C45A51ACDFE8700055359 /* NotificationController.m */; };
-		161C45C61ACDFE8700055359 /* PushNotificationPayload.apns in Resources */ = {isa = PBXBuildFile; fileRef = 161C45A61ACDFE8700055359 /* PushNotificationPayload.apns */; };
 		1659196A1AC366F700E275AA /* WatchCard WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 165919691AC366F700E275AA /* WatchCard WatchKit App.app */; };
 		165919771AC366F700E275AA /* WatchCard WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1659195A1AC366F700E275AA /* WatchCard WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		165919A11AC3CA0400E275AA /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165919A01AC3CA0400E275AA /* AddressBook.framework */; };
 		165919A31AC3CA0800E275AA /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165919A21AC3CA0800E275AA /* AddressBookUI.framework */; };
+		1685E6BB1ACE4EDE00C6FA14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161C45A01ACDFE8700055359 /* Images.xcassets */; };
+		1685E6BF1ACE50A900C6FA14 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161C45A31ACDFE8700055359 /* InterfaceController.m */; };
+		1685E6C01ACE50AE00C6FA14 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161C45A51ACDFE8700055359 /* NotificationController.m */; };
+		1685E6C11ACE536700C6FA14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161C45741ACDFE8700055359 /* Main.storyboard */; };
+		1685E6C21ACE536A00C6FA14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161C45721ACDFE8700055359 /* LaunchScreen.xib */; };
+		16F2415B1AD06A7D00E8146B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161C459B1ACDFE8700055359 /* Interface.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,7 +83,6 @@
 		161C457D1ACDFE8700055359 /* ABContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABContact.m; sourceTree = "<group>"; };
 		161C457E1ACDFE8700055359 /* VCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCard.h; sourceTree = "<group>"; };
 		161C457F1ACDFE8700055359 /* VCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCard.m; sourceTree = "<group>"; };
-		161C45811ACDFE8700055359 /* Contact_Face.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contact_Face.xcdatamodel; sourceTree = "<group>"; };
 		161C45821ACDFE8700055359 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		161C45831ACDFE8700055359 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		161C45841ACDFE8700055359 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -127,6 +122,8 @@
 		165919691AC366F700E275AA /* WatchCard WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchCard WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		165919A01AC3CA0400E275AA /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		165919A21AC3CA0800E275AA /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		16F2415C1AD34A0900E8146B /* WatchCard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WatchCard.entitlements; sourceTree = "<group>"; };
+		16F2415D1AD34BFC00E8146B /* WatchCard WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "WatchCard WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +149,7 @@
 		161C456F1ACDFE8700055359 /* WatchCard */ = {
 			isa = PBXGroup;
 			children = (
+				16F2415C1AD34A0900E8146B /* WatchCard.entitlements */,
 				161C45701ACDFE8700055359 /* AppDelegate.h */,
 				161C45711ACDFE8700055359 /* AppDelegate.m */,
 				161C45721ACDFE8700055359 /* LaunchScreen.xib */,
@@ -162,7 +160,6 @@
 				161C45791ACDFE8700055359 /* bitstream.h */,
 				161C457A1ACDFE8700055359 /* config.h */,
 				161C457B1ACDFE8700055359 /* contact */,
-				161C45801ACDFE8700055359 /* Contact_Face.xcdatamodeld */,
 				161C45821ACDFE8700055359 /* Images.xcassets */,
 				161C45831ACDFE8700055359 /* Info.plist */,
 				161C45841ACDFE8700055359 /* main.m */,
@@ -215,6 +212,7 @@
 		161C459F1ACDFE8700055359 /* WatchCard WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				16F2415D1AD34BFC00E8146B /* WatchCard WatchKit Extension.entitlements */,
 				161C45A01ACDFE8700055359 /* Images.xcassets */,
 				161C45A11ACDFE8700055359 /* Info.plist */,
 				161C45A21ACDFE8700055359 /* InterfaceController.h */,
@@ -232,8 +230,8 @@
 				165919A21AC3CA0800E275AA /* AddressBookUI.framework */,
 				165919A01AC3CA0400E275AA /* AddressBook.framework */,
 				161C456F1ACDFE8700055359 /* WatchCard */,
-				161C459A1ACDFE8700055359 /* WatchCard WatchKit App */,
 				161C459F1ACDFE8700055359 /* WatchCard WatchKit Extension */,
+				161C459A1ACDFE8700055359 /* WatchCard WatchKit App */,
 				1659192B1AC366DA00E275AA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -315,10 +313,20 @@
 					165919291AC366DA00E275AA = {
 						CreatedOnToolsVersion = 6.3;
 						DevelopmentTeam = JSGZDY54HP;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					165919591AC366F700E275AA = {
 						CreatedOnToolsVersion = 6.3;
 						DevelopmentTeam = JSGZDY54HP;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					165919681AC366F700E275AA = {
 						CreatedOnToolsVersion = 6.3;
@@ -351,16 +359,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				161C45B31ACDFE8700055359 /* Info.plist in Resources */,
-				161C45C21ACDFE8700055359 /* Images.xcassets in Resources */,
-				161C45C31ACDFE8700055359 /* Info.plist in Resources */,
+				1685E6C21ACE536A00C6FA14 /* LaunchScreen.xib in Resources */,
+				1685E6C11ACE536700C6FA14 /* Main.storyboard in Resources */,
 				161C45B21ACDFE8700055359 /* Images.xcassets in Resources */,
-				161C45AB1ACDFE8700055359 /* LaunchScreen.xib in Resources */,
-				161C45C01ACDFE8700055359 /* Images.xcassets in Resources */,
-				161C45BF1ACDFE8700055359 /* Interface.storyboard in Resources */,
-				161C45AC1ACDFE8700055359 /* Main.storyboard in Resources */,
-				161C45C11ACDFE8700055359 /* Info.plist in Resources */,
-				161C45C61ACDFE8700055359 /* PushNotificationPayload.apns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +369,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1685E6BB1ACE4EDE00C6FA14 /* Images.xcassets in Resources */,
 				1659196A1AC366F700E275AA /* WatchCard WatchKit App.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +378,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16F2415B1AD06A7D00E8146B /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +397,6 @@
 				161C45BD1ACDFE8700055359 /* split.c in Sources */,
 				161C45C51ACDFE8700055359 /* NotificationController.m in Sources */,
 				161C45AD1ACDFE8700055359 /* Base64.m in Sources */,
-				161C45B11ACDFE8700055359 /* Contact_Face.xcdatamodeld in Sources */,
 				161C45AF1ACDFE8700055359 /* ABContact.m in Sources */,
 				161C45B01ACDFE8700055359 /* VCard.m in Sources */,
 				161C45B71ACDFE8700055359 /* mmask.c in Sources */,
@@ -412,6 +414,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1685E6C01ACE50AE00C6FA14 /* NotificationController.m in Sources */,
+				1685E6BF1ACE50A900C6FA14 /* InterfaceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,7 +498,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -532,7 +536,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -544,10 +548,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WatchCard/WatchCard.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WatchCard/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -558,10 +563,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WatchCard/WatchCard.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WatchCard/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -577,8 +583,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				IBSC_MODULE = Contact_Face_WatchKit_Extension;
-				INFOPLIST_FILE = "$(SRCROOT)/WatchCard WatchKit App/Info.plist";
+				IBSC_MODULE = WatchCard_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchCard WatchKit App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = "WatchCard WatchKit App";
 				SKIP_INSTALL = YES;
@@ -592,8 +598,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IBSC_MODULE = Contact_Face_WatchKit_Extension;
-				INFOPLIST_FILE = "$(SRCROOT)/WatchCard WatchKit App/Info.plist";
+				IBSC_MODULE = WatchCard_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchCard WatchKit App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = "WatchCard WatchKit App";
 				SKIP_INSTALL = YES;
@@ -605,7 +611,9 @@
 		1659197C1AC366F700E275AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "WatchCard WatchKit Extension/WatchCard WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -613,6 +621,7 @@
 				INFOPLIST_FILE = "WatchCard WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "WatchCard WatchKit Extension";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -620,10 +629,13 @@
 		1659197D1AC366F700E275AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "WatchCard WatchKit Extension/WatchCard WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "WatchCard WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "WatchCard WatchKit Extension";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -668,19 +680,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		161C45801ACDFE8700055359 /* Contact_Face.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				161C45811ACDFE8700055359 /* Contact_Face.xcdatamodel */,
-			);
-			currentVersion = 161C45811ACDFE8700055359 /* Contact_Face.xcdatamodel */;
-			path = Contact_Face.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 165919221AC366DA00E275AA /* Project object */;
 }
