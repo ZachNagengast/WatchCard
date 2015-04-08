@@ -246,6 +246,8 @@
         _hideTableSection = YES;
     }
     
+    [self.tableView reloadData];
+    
 }
 
 - (IBAction)saveData:(id)sender

@@ -22,7 +22,7 @@
                         <constraint firstAttribute="height" constant="200" id="klf-I9-CXE"/>
                     </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="WatchCard" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZR-u5-yPU">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WatchCard" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZR-u5-yPU">
                     <rect key="frame" x="77" y="354" width="167" height="44"/>
                     <fontDescription key="fontDescription" type="system" pointSize="34"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -51,6 +51,7 @@
                 <constraint firstItem="yWS-mk-zTF" firstAttribute="centerX" secondItem="MZR-u5-yPU" secondAttribute="centerX" id="gRx-BZ-NRB"/>
                 <constraint firstAttribute="bottom" secondItem="yWS-mk-zTF" secondAttribute="bottom" constant="141" id="hbS-fo-aYz"/>
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="top" secondItem="yWS-mk-zTF" secondAttribute="bottom" constant="100" id="hjD-W0-TwV"/>
+                <constraint firstItem="MZR-u5-yPU" firstAttribute="top" secondItem="rcT-zO-0kN" secondAttribute="bottom" constant="69" id="nUo-BP-aCH"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
