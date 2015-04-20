@@ -37,6 +37,9 @@
                                         andDarkColour:[UIColor blackColor]
                                          andQuietZone:1
                                               andSize:300];
+    self.watchFaceView.layer.borderColor = [[UIColor colorWithRed:0.0 green:.886 blue:.447 alpha:1.0] CGColor];
+    self.watchFaceView.layer.borderWidth = 2;
+    self.watchFaceView.layer.cornerRadius = 20;
     
     [self updateWatchFace];
     

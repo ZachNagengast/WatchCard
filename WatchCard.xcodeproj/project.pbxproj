@@ -30,11 +30,12 @@
 		165919771AC366F700E275AA /* WatchCard WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1659195A1AC366F700E275AA /* WatchCard WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		165919A11AC3CA0400E275AA /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165919A01AC3CA0400E275AA /* AddressBook.framework */; };
 		165919A31AC3CA0800E275AA /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165919A21AC3CA0800E275AA /* AddressBookUI.framework */; };
-		1685E6BB1ACE4EDE00C6FA14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161C45A01ACDFE8700055359 /* Images.xcassets */; };
+		1685E6BB1ACE4EDE00C6FA14 /* ImagesExtension.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161C45A01ACDFE8700055359 /* ImagesExtension.xcassets */; };
 		1685E6BF1ACE50A900C6FA14 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161C45A31ACDFE8700055359 /* InterfaceController.m */; };
 		1685E6C01ACE50AE00C6FA14 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 161C45A51ACDFE8700055359 /* NotificationController.m */; };
 		1685E6C11ACE536700C6FA14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161C45741ACDFE8700055359 /* Main.storyboard */; };
 		1685E6C21ACE536A00C6FA14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161C45721ACDFE8700055359 /* LaunchScreen.xib */; };
+		16AA1E061AD4F6FB006FB975 /* ImagesApp.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161C459D1ACDFE8700055359 /* ImagesApp.xcassets */; };
 		16F2415B1AD06A7D00E8146B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161C459B1ACDFE8700055359 /* Interface.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -108,9 +109,9 @@
 		161C45981ACDFE8700055359 /* UIImage+QRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QRCodeGenerator.h"; sourceTree = "<group>"; };
 		161C45991ACDFE8700055359 /* UIImage+QRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QRCodeGenerator.m"; sourceTree = "<group>"; };
 		161C459C1ACDFE8700055359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		161C459D1ACDFE8700055359 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		161C459D1ACDFE8700055359 /* ImagesApp.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ImagesApp.xcassets; sourceTree = "<group>"; };
 		161C459E1ACDFE8700055359 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		161C45A01ACDFE8700055359 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		161C45A01ACDFE8700055359 /* ImagesExtension.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ImagesExtension.xcassets; sourceTree = "<group>"; };
 		161C45A11ACDFE8700055359 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		161C45A21ACDFE8700055359 /* InterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
 		161C45A31ACDFE8700055359 /* InterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
@@ -203,7 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				161C459B1ACDFE8700055359 /* Interface.storyboard */,
-				161C459D1ACDFE8700055359 /* Images.xcassets */,
+				161C459D1ACDFE8700055359 /* ImagesApp.xcassets */,
 				161C459E1ACDFE8700055359 /* Info.plist */,
 			);
 			path = "WatchCard WatchKit App";
@@ -213,7 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				16F2415D1AD34BFC00E8146B /* WatchCard WatchKit Extension.entitlements */,
-				161C45A01ACDFE8700055359 /* Images.xcassets */,
+				161C45A01ACDFE8700055359 /* ImagesExtension.xcassets */,
 				161C45A11ACDFE8700055359 /* Info.plist */,
 				161C45A21ACDFE8700055359 /* InterfaceController.h */,
 				161C45A31ACDFE8700055359 /* InterfaceController.m */,
@@ -369,7 +370,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1685E6BB1ACE4EDE00C6FA14 /* Images.xcassets in Resources */,
+				1685E6BB1ACE4EDE00C6FA14 /* ImagesExtension.xcassets in Resources */,
 				1659196A1AC366F700E275AA /* WatchCard WatchKit App.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16F2415B1AD06A7D00E8146B /* Interface.storyboard in Resources */,
+				16AA1E061AD4F6FB006FB975 /* ImagesApp.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +558,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -571,13 +574,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		165919791AC366F700E275AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconApp;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -596,7 +600,7 @@
 		1659197A1AC366F700E275AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconApp;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IBSC_MODULE = WatchCard_WatchKit_Extension;
 				INFOPLIST_FILE = "WatchCard WatchKit App/Info.plist";
@@ -611,6 +615,7 @@
 		1659197C1AC366F700E275AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconExt;
 				CODE_SIGN_ENTITLEMENTS = "WatchCard WatchKit Extension/WatchCard WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -629,6 +634,7 @@
 		1659197D1AC366F700E275AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconExt;
 				CODE_SIGN_ENTITLEMENTS = "WatchCard WatchKit Extension/WatchCard WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";

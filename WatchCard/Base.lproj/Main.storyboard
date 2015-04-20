@@ -37,24 +37,27 @@
                             <rect key="frame" x="0.0" y="64" width="320" height="220"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="watch_face" translatesAutoresizingMaskIntoConstraints="NO" id="ATS-6n-p7w">
-                                    <rect key="frame" x="0.0" y="20" width="320" height="200"/>
-                                </imageView>
+                                <view contentMode="scaleToFill" placeholderIntrinsicWidth="140" placeholderIntrinsicHeight="165" translatesAutoresizingMaskIntoConstraints="NO" id="Vg1-y9-PMY">
+                                    <rect key="frame" x="90" y="27" width="140" height="165"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="140" id="lR2-ze-FlL"/>
+                                    </constraints>
+                                </view>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="330" placeholderIntrinsicHeight="330" image="ExampleContact" highlightedImage="ExampleContact" translatesAutoresizingMaskIntoConstraints="NO" id="nk2-mJ-G4b">
-                                    <rect key="frame" x="110" y="70" width="100" height="100"/>
+                                    <rect key="frame" x="110" y="60" width="100" height="100"/>
                                 </imageView>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scroll Down to Setup" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000000000007" translatesAutoresizingMaskIntoConstraints="NO" id="HQq-2E-8uD">
-                                    <rect key="frame" x="110" y="47" width="100" height="21"/>
+                                    <rect key="frame" x="110" y="37" width="100" height="21"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="21" id="JWm-ar-l8V"/>
-                                        <constraint firstAttribute="width" constant="100" id="dln-6h-Dat"/>
+                                        <constraint firstAttribute="height" constant="21" id="ErF-qH-Uvj"/>
+                                        <constraint firstAttribute="width" constant="100" id="YhD-nk-veT"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <color key="textColor" red="0.0" green="0.88627450980392153" blue="0.44705882352941179" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Follow @zaucetech" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="none" minimumScaleFactor="0.10000000000000007" translatesAutoresizingMaskIntoConstraints="NO" id="TBT-gD-0lo">
-                                    <rect key="frame" x="110" y="172" width="100" height="21"/>
+                                    <rect key="frame" x="110" y="162" width="100" height="21"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <color key="textColor" red="0.0" green="0.88627450980392153" blue="0.44705882352941179" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
@@ -62,21 +65,27 @@
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstItem="TBT-gD-0lo" firstAttribute="top" secondItem="nk2-mJ-G4b" secondAttribute="bottom" constant="2" id="17C-bl-dwL"/>
-                                <constraint firstItem="nk2-mJ-G4b" firstAttribute="leading" secondItem="HQq-2E-8uD" secondAttribute="leading" id="32x-Ni-KMj"/>
-                                <constraint firstItem="nk2-mJ-G4b" firstAttribute="centerY" secondItem="ATS-6n-p7w" secondAttribute="centerY" id="4SV-rq-nyt"/>
-                                <constraint firstAttribute="bottom" secondItem="TBT-gD-0lo" secondAttribute="bottom" constant="27" id="9rb-3j-uug"/>
-                                <constraint firstItem="nk2-mJ-G4b" firstAttribute="trailing" secondItem="TBT-gD-0lo" secondAttribute="trailing" id="Dxh-wx-cfP"/>
-                                <constraint firstAttribute="bottom" secondItem="ATS-6n-p7w" secondAttribute="bottom" id="GY0-8K-NNo"/>
-                                <constraint firstItem="HQq-2E-8uD" firstAttribute="top" secondItem="Tsd-nZ-4cl" secondAttribute="top" constant="47" id="JDL-VC-FZg"/>
-                                <constraint firstAttribute="trailing" secondItem="ATS-6n-p7w" secondAttribute="trailing" id="L8S-6Y-Aqd"/>
-                                <constraint firstItem="ATS-6n-p7w" firstAttribute="leading" secondItem="Tsd-nZ-4cl" secondAttribute="leading" id="TJP-Un-2id"/>
-                                <constraint firstItem="nk2-mJ-G4b" firstAttribute="leading" secondItem="TBT-gD-0lo" secondAttribute="leading" id="UXB-hQ-AhI"/>
-                                <constraint firstItem="nk2-mJ-G4b" firstAttribute="centerX" secondItem="ATS-6n-p7w" secondAttribute="centerX" id="mEZ-tw-T2Z"/>
-                                <constraint firstItem="nk2-mJ-G4b" firstAttribute="trailing" secondItem="HQq-2E-8uD" secondAttribute="trailing" id="pmi-j3-M8p"/>
-                                <constraint firstItem="ATS-6n-p7w" firstAttribute="top" secondItem="Tsd-nZ-4cl" secondAttribute="top" constant="20" id="x9x-Qs-g35"/>
-                                <constraint firstItem="nk2-mJ-G4b" firstAttribute="top" secondItem="HQq-2E-8uD" secondAttribute="bottom" constant="2" id="yDz-uN-oXv"/>
+                                <constraint firstItem="Vg1-y9-PMY" firstAttribute="leading" secondItem="Tsd-nZ-4cl" secondAttribute="leading" constant="90" id="1vI-eL-L2P"/>
+                                <constraint firstItem="nk2-mJ-G4b" firstAttribute="leading" secondItem="HQq-2E-8uD" secondAttribute="leading" id="51P-Wn-gXL"/>
+                                <constraint firstItem="TBT-gD-0lo" firstAttribute="centerX" secondItem="Tsd-nZ-4cl" secondAttribute="centerX" id="BFl-bo-BpI"/>
+                                <constraint firstItem="Vg1-y9-PMY" firstAttribute="top" secondItem="Tsd-nZ-4cl" secondAttribute="top" constant="27" id="BMV-Km-D8v"/>
+                                <constraint firstItem="nk2-mJ-G4b" firstAttribute="centerY" secondItem="Tsd-nZ-4cl" secondAttribute="centerY" id="Hxh-Oo-TyX"/>
+                                <constraint firstItem="HQq-2E-8uD" firstAttribute="trailing" secondItem="nk2-mJ-G4b" secondAttribute="trailing" id="IjG-mn-BaS"/>
+                                <constraint firstItem="HQq-2E-8uD" firstAttribute="top" secondItem="Tsd-nZ-4cl" secondAttribute="top" constant="37" id="J7S-2x-mer"/>
+                                <constraint firstItem="nk2-mJ-G4b" firstAttribute="top" secondItem="HQq-2E-8uD" secondAttribute="bottom" constant="2" id="M9k-Tb-oll"/>
+                                <constraint firstAttribute="bottom" secondItem="Vg1-y9-PMY" secondAttribute="bottom" constant="28" id="R7m-jm-en6"/>
+                                <constraint firstAttribute="centerY" secondItem="Vg1-y9-PMY" secondAttribute="centerY" constant="0.5" id="bIc-86-ZCx"/>
+                                <constraint firstItem="TBT-gD-0lo" firstAttribute="top" secondItem="nk2-mJ-G4b" secondAttribute="bottom" constant="2" id="kGD-IA-YRl"/>
+                                <constraint firstItem="TBT-gD-0lo" firstAttribute="trailing" secondItem="nk2-mJ-G4b" secondAttribute="trailing" id="nl3-H7-YVE"/>
+                                <constraint firstAttribute="bottom" secondItem="TBT-gD-0lo" secondAttribute="bottom" constant="37" id="nxx-Wa-i5t"/>
+                                <constraint firstItem="nk2-mJ-G4b" firstAttribute="centerX" secondItem="Vg1-y9-PMY" secondAttribute="centerX" id="q76-BW-sIv"/>
+                                <constraint firstItem="nk2-mJ-G4b" firstAttribute="leading" secondItem="TBT-gD-0lo" secondAttribute="leading" id="y7g-T5-gyk"/>
                             </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="1vI-eL-L2P"/>
+                                </mask>
+                            </variation>
                         </view>
                         <sections>
                             <tableViewSection headerTitle="Start here" footerTitle="Select Number or Email" id="TiR-m4-oYc">
@@ -204,6 +213,7 @@
                         <outlet property="previewDescriptionView" destination="TBT-gD-0lo" id="I3o-Xf-WrA"/>
                         <outlet property="previewNameView" destination="HQq-2E-8uD" id="5DB-Rd-Ebc"/>
                         <outlet property="qrImageView" destination="nk2-mJ-G4b" id="BIL-Aw-QSC"/>
+                        <outlet property="watchFaceView" destination="Vg1-y9-PMY" id="xcE-b3-6Zb"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="flv-5g-V5H" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -213,7 +223,6 @@
     </scenes>
     <resources>
         <image name="ExampleContact" width="163" height="163"/>
-        <image name="watch_face" width="222" height="245"/>
     </resources>
     <color key="tintColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
 </document>

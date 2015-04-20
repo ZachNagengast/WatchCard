@@ -17,11 +17,11 @@
 @property (readwrite) BOOL hideTableSection;
 
 @property (nonatomic, retain) IBOutlet UIImageView *qrImageView;
+@property (nonatomic, retain) IBOutlet UIView *watchFaceView;
 @property (nonatomic, retain) IBOutlet UILabel *previewNameView;
 @property (nonatomic, retain) IBOutlet UILabel *previewDescriptionView;
 @property (nonatomic, retain) IBOutlet UITextField *nameField;
 @property (nonatomic, retain) IBOutlet UITextField *descriptionField;
-@property (nonatomic, retain) IBOutlet UITableView;
 
 - (IBAction)saveData:(id)sender;
 
